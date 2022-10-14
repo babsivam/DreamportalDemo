@@ -42,8 +42,12 @@
     <a href="https://babsivam.github.io/DreamportalDemo/survey2.html">Survey 2 Page</a></br>
     <a href="https://babsivam.github.io/DreamportalDemo/unauth-signup.html">Unauth Signup Page</a></br>
 </body>
-<script>
-$(document).on("contextmenu",function(){ return false; });
+<script type="text/javascript" language="javascript">
+        $(function() {
+            $(this).bind("contextmenu", function(e) {
+                e.preventDefault();
+            });
+        }); 
 </script>
 
 </html>
