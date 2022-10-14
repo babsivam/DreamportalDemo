@@ -12,7 +12,7 @@
     </style>
 </head>
 
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
     <h1>Dream Portal Demo Page</h1>
     <p>click below links to see pages</p>
     <a href="https://babsivam.github.io/DreamportalDemo/about.html">About Page</a></br>
@@ -42,12 +42,6 @@
     <a href="https://babsivam.github.io/DreamportalDemo/survey2.html">Survey 2 Page</a></br>
     <a href="https://babsivam.github.io/DreamportalDemo/unauth-signup.html">Unauth Signup Page</a></br>
 </body>
-<script type="text/javascript" language="javascript">
-        $(function() {
-            $(this).bind("contextmenu", function(e) {
-                e.preventDefault();
-            });
-        }); 
-</script>
+
 
 </html>
